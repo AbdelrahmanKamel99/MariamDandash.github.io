@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 200, 205);
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-md {
+    padding: 0;
+}
+
+.mariam {
+    width: 90%;
+}
+
+
+
+.projects {
+    margin-top: 30px;
+
+}
+
+.projects img {
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+}
+
+.projects p {
+    margin-top: 5px;
+}
+
+header {
+
+    text-align: center;
+
+}
+
+header h1 {
+    padding: 50px;
+}
+
+
+
+
+
+.w-100 {
+    width: 100% !important;
+    height: 100vh;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.carousel-inner {
+    width: 1000px;
+    height: 500px;
+    border: 0px !important;
+}
+
+
+
+.carousel-item {
+    border: 0px !important;
+    background: red;
+    position: relative;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/309072073_3305994989645415_1423493936900078595_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=LKnm-6KdAnwAX8I4Kwt&_nc_ht=scontent-hbe1-1.xx&oh=00_AT-TkXMQXJe_Yvn8hGna_O_BWV6sRysiyvF_GZMWDej5-A&oe=6352A20F");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(4px);
+    z-index: -1;
+    position: absolute;
+
+}
+
+.center-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.project-dino img {
+    width: 40%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video {
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: #0D6EFD;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    color: white;
+
+}
+
+@media(max-width:800px) {
+    .mariam {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .carousel-inner {
+        width: 100%;
+
+        height: 100%;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .project-dino img {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    footer {
+        position: static;
+        margin: 0;
+    }
+
+    footer h4 {
+        margin: 0;
+
+    }
+
+}
+
+@media(min-width: 600px) {
+    header {
+        display: none;
+    }
+}
+
+a {
+    position: static;
+    text-decoration: none;
+}
